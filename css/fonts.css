@@ -1,8 +1,24 @@
 @font-face {
   font-family: "Hellix";
-  src: url(../fonts/Hellix-Bold.woff2) format("woff2");
+  src: url(../fonts/Hellix-ExtraBold.woff2) format("woff2");
   font-style: normal;
   font-weight: 900;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Hellix";
+  src: url(../fonts/Hellix-Bold.woff2) format("woff2");
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Hellix";
+  src: url(../fonts/Hellix-SemiBold.woff2) format("woff2");
+  font-style: normal;
+  font-weight: 700;
   font-display: swap;
 }
 
@@ -16,8 +32,32 @@
 
 @font-face {
   font-family: "Hellix";
+  src: url(../fonts/Hellix-Black.woff2) format("woff2");
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Hellix";
   src: url(../fonts/Hellix-Regular.woff2) format("woff2");
   font-style: normal;
   font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Hellix";
+  src: url(../fonts/Hellix-Light.woff2) format("woff2");
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Hellix";
+  src: url(../fonts/Hellix-Thin.woff2) format("woff2");
+  font-style: normal;
+  font-weight: 100;
   font-display: swap;
 }
