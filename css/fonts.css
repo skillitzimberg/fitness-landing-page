@@ -1,4 +1,23 @@
 @font-face {
   font-family: "Hellix";
-  src: url(../fonts/Hellix-Regular.ttf) format("truetype");
+  src: url(../fonts/Hellix-Bold.woff2) format("woff2");
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Hellix";
+  src: url(../fonts/Hellix-Medium.woff2) format("woff2");
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Hellix";
+  src: url(../fonts/Hellix-Regular.woff2) format("woff2");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
 }
