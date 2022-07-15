@@ -1,11 +1,2 @@
-body {
-  font-family: Hellix;
-}
-
-h1 {
-  font-weight: 600;
-}
-
-.emphasis {
-  font-weight: 900;
-}
+@import url(./fonts.css);
+@import url(./mobile.css);
