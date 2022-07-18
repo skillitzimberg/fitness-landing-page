@@ -12,7 +12,21 @@ html {
 
 body {
   font-family: Hellix;
+  font-size: 16px;
   color: #111235;
+}
+
+button {
+  display: block;
+  width: 252px;
+  height: 59px;
+  margin: 30px auto 0;
+  border-radius: 35px;
+  border: none;
+  background-color: #4B5092;
+  font-size: 18px;
+  letter-spacing: 1.2px;
+  color: white;
 }
 
 h1 {
@@ -28,7 +42,30 @@ header {
   box-shadow: 0 1px 20px 5px #ebebeb;
 }
 
+section {
+  margin: 40px 0 80px;
+}
+
+section>img {
+  width: 100%;
+  display: inline-block;
+  margin: 0 auto;
+}
+
+section>p {
+  margin: 20px 16px 0;
+  line-height: 24px;
+  text-align: center;
+}
+
 .emphasis {
   font-weight: 900;
   color: black;
+}
+
+#call-to-action>h2 {
+  font-weight: 100;
+  font-size: 64px;
+  line-height: 75px;
+  text-align: center;
 }
