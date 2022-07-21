@@ -37,6 +37,12 @@ h1 {
   text-align: center;
 }
 
+h3 {
+  font-size: 48px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
 header {
   background-color: white;
   box-shadow: 0 1px 20px 1px #ebebeb;
@@ -52,10 +58,13 @@ section>img {
   margin: 0 auto;
 }
 
-section>p {
-  margin: 20px 16px 0;
+section p {
+  margin: 20px 0 0;
   line-height: 24px;
-  text-align: center;
+}
+
+.content {
+  padding: 50px 16px;
 }
 
 .emphasis {
@@ -63,9 +72,19 @@ section>p {
   color: black;
 }
 
-#call-to-action>h2 {
-  font-weight: 500;
+#call-to-action .content h2 {
+  font-weight: 400;
   font-size: 64px;
   line-height: 75px;
   text-align: center;
 }
+
+#call-to-action .content p {
+  text-align: center;
+}
+
+#loads .content {
+  background-color: #F2F8FF;
+}
+
+#loads .content h3 {}
