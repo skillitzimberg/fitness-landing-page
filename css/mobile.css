@@ -13,6 +13,7 @@ html {
 body {
   font-family: Hellix;
   font-size: 16px;
+  font-weight: 400;
   color: #111235;
 }
 
@@ -25,22 +26,30 @@ button {
   border: none;
   background-color: #4B5092;
   font-size: 18px;
+  font-weight: 600;
   letter-spacing: 1.2px;
   color: white;
 }
 
 h1 {
   padding: 16px 0;
-  font-weight: 700;
+  font-weight: 500;
   font-size: 36px;
   letter-spacing: -1px;
   text-align: center;
 }
 
 h3 {
+  margin: 0 0 20px;
   font-size: 48px;
   font-weight: 400;
   letter-spacing: 1px;
+}
+
+h4 {
+  margin: 0 0 30px;
+  font-size: 18px;
+  font-weight: 500;
 }
 
 header {
@@ -58,8 +67,7 @@ section>img {
   margin: 0 auto;
 }
 
-section p {
-  margin: 20px 0 0;
+p {
   line-height: 24px;
 }
 
@@ -73,6 +81,7 @@ section p {
 }
 
 #call-to-action .content h2 {
+  margin: 0 0 20px;
   font-weight: 400;
   font-size: 64px;
   line-height: 75px;
@@ -87,4 +96,25 @@ section p {
   background-color: #F2F8FF;
 }
 
-#loads .content h3 {}
+#trainer {
+  text-align: center;
+  background: linear-gradient(99.85deg, #BAD5FF 0%, #6487BF 100%);
+}
+
+#trainer button {
+  background-color: white;
+  color: #436BAA;
+}
+
+#trainer h3 {
+  font-weight: 700;
+  letter-spacing: 0;
+}
+
+#trainer img {
+  margin: 0 0 -5px;
+}
+
+#trainer .content {
+  margin-bottom: 12px;
+}
