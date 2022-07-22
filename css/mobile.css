@@ -26,12 +26,20 @@ button {
   border: none;
   background-color: #4B5092;
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 500;
   letter-spacing: 1.2px;
   color: white;
 }
 
 h1 {
+  margin: 0 0 20px;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 75px;
+  text-align: center;
+}
+
+h2 {
   padding: 16px 0;
   font-weight: 500;
   font-size: 36px;
@@ -71,21 +79,45 @@ p {
   line-height: 24px;
 }
 
+.benefit {
+  margin: 20px 0;
+  padding: 50px 54px 42px 50px;
+  height: 274px;
+  border-radius: 30px;
+  background-color: #E4F0FF;
+}
+
+.benefit:nth-of-type(1) {
+  margin: 50px auto 0;
+}
+
+.benefit:nth-of-type(2),
+.benefit:nth-of-type(3) {
+  background-color: rgba(114, 122, 239, 0.1);
+}
+
+.benefit h4 {
+  margin: 0 0 20px;
+  max-width: 234px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.benefit:nth-of-type(4) {
+  margin-bottom: 50px;
+}
+
+.benefit:nth-of-type(4) h4 {
+  width: 137px;
+}
+
 .content {
   padding: 50px 16px;
 }
 
 .emphasis {
-  font-weight: 900;
+  font-weight: 700;
   color: black;
-}
-
-#call-to-action .content h2 {
-  margin: 0 0 20px;
-  font-weight: 400;
-  font-size: 64px;
-  line-height: 75px;
-  text-align: center;
 }
 
 #call-to-action .content p {
