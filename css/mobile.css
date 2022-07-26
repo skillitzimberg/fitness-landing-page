@@ -32,6 +32,40 @@ button {
   color: white;
 }
 
+footer {
+  border-top: 1px solid #111235;
+  margin-bottom: 103px;
+  padding-top: 50px;
+}
+
+footer h4,
+footer p {
+  text-align: center;
+}
+
+footer p {
+  margin-top: 60px;
+  font-size: 14px;
+}
+
+form {
+  width: 255px;
+  margin: 0 auto;
+  padding: 8px 12px;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+}
+
+#email {
+  border: none;
+}
+
+#email::placeholder {
+  color: black;
+  opacity: 1;
+}
+
 h1 {
   margin: 0 0 20px;
   font-weight: 400;
@@ -64,6 +98,28 @@ h4 {
 header {
   background-color: white;
   box-shadow: 0 1px 20px 1px #ebebeb;
+}
+
+input[type="submit"] {
+  border: none;
+  width: 16px;
+  background: url(../images/icon-send.png) center no-repeat;
+}
+
+label {
+  display: none;
+}
+
+menu a {
+  display: block;
+  margin: 35px 0;
+  text-align: center;
+  text-decoration: none;
+  color: #111235;
+}
+
+menu a:visited {
+  color: #111235;
 }
 
 section {
@@ -127,6 +183,13 @@ p {
 
 #loads .content {
   background-color: #F2F8FF;
+}
+
+#social-media {
+  width: 176px;
+  margin: 40px auto 60px;
+  display: flex;
+  justify-content: space-between;
 }
 
 #trainer {
