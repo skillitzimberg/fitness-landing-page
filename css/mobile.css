@@ -62,7 +62,7 @@ form {
 }
 
 #email::placeholder {
-  color: black;
+  color: #111235;
   opacity: 1;
 }
 
@@ -110,14 +110,16 @@ label {
   display: none;
 }
 
-menu a {
-  display: block;
+menu li {
   margin: 35px 0;
   text-align: center;
-  text-decoration: none;
-  color: #111235;
 }
 
+menu a {
+  text-decoration: none;
+}
+
+menu a,
 menu a:visited {
   color: #111235;
 }
@@ -134,6 +136,10 @@ section>img {
 
 p {
   line-height: 24px;
+}
+
+ul {
+  text-decoration: none;
 }
 
 .benefit {
@@ -175,6 +181,16 @@ p {
 .emphasis {
   font-weight: 700;
   color: black;
+}
+
+.icon-circle {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(128, 173, 245, 0.2);
+  border-radius: 100%;
 }
 
 #call-to-action .content p {
