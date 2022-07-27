@@ -1,2 +1,25 @@
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  header {
+    width: 80%;
+    margin: 27px auto;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: none;
+  }
+
+  header menu {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  ul {
+    display: inline;
+  }
+
+  header menu li {
+    display: inline-block;
+  }
+}

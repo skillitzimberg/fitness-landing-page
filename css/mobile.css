@@ -32,6 +32,10 @@ button {
   color: white;
 }
 
+header menu {
+  display: none;
+}
+
 footer {
   border-top: 1px solid #111235;
   margin-bottom: 103px;
@@ -110,6 +114,10 @@ label {
   display: none;
 }
 
+menu {
+  list-style: none;
+}
+
 menu li {
   margin: 35px 0;
   text-align: center;
@@ -136,10 +144,6 @@ section>img {
 
 p {
   line-height: 24px;
-}
-
-ul {
-  text-decoration: none;
 }
 
 .benefit {
