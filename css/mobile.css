@@ -37,6 +37,11 @@ h3 {
   font-size: 2rem;
 }
 
+h4 {
+  margin-bottom: 30px;
+  font-size: 1.125rem;
+}
+
 .emphasis {
   font-weight: 700;
 }
@@ -78,6 +83,11 @@ section p {
   color: white;
 }
 
+.light-btn {
+  background-color: white;
+  color: #436BAA;
+}
+
 .content {
   padding: 50px 1rem;
 }
@@ -88,4 +98,17 @@ section p {
 
 .blue-bg {
   background-color: #F2F8FF;
+}
+
+#trainer {
+  background: linear-gradient(99.85deg, #BAD5FF 0%, #6487BF 100%);
+}
+
+#trainer h2 {
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+#trainer img {
+  margin: 0 0 -5px;
 }
