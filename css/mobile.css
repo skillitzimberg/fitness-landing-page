@@ -7,6 +7,7 @@
 body {
   min-width: 100%;
   min-height: 100vh;
+  background: linear-gradient(7.28deg, #EEF5FF 0%, #FFFFFF 99.69%);
   font-family: Hellix;
   font-size: 16px;
   color: #111235;
@@ -33,11 +34,17 @@ h2 {
   line-height: 3.625rem;
 }
 
-h3 {
+.logo {
+  margin-top: 25px;
   font-size: 2rem;
 }
 
 h4 {
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+}
+
+h5 {
   margin-bottom: 30px;
   font-size: 1.125rem;
 }
@@ -53,9 +60,6 @@ h4 {
 header {
   height: 75px;
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 section {
@@ -89,12 +93,28 @@ section p {
 }
 
 .content {
+  margin-top: 20px;
   padding: 50px 1rem;
 }
 
 .card {
-  margin-top: 20px;
+  height: 274px;
+  margin-bottom: 1.25rem;
+  padding-left: 30px;
+  padding-right: 100px;
+  border-radius: 30px;
+  background-color: rgba(114, 122, 239, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
+
+
+.card:nth-of-type(1),
+.card:nth-of-type(4) {
+  background-color: #E4F0FF;
+}
+
 
 .blue-bg {
   background-color: #F2F8FF;
@@ -111,4 +131,59 @@ section p {
 
 #trainer img {
   margin: 0 0 -5px;
+}
+
+footer {
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+  padding-top: 25px;
+}
+
+footer h5 {
+  margin-top: 50px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+footer p {
+  margin: 60px auto 130px;
+}
+
+ul {
+  margin-top: 50px;
+  list-style: none;
+}
+
+li {
+  margin-bottom: 35px;
+}
+
+label {
+  display: none;
+}
+
+input {
+  width: 255px;
+  height: 40px;
+  padding: 8px 12px;
+  background-color: white;
+  background: white url(../images/icon-send.png) no-repeat 220px;
+  border: none;
+  border-radius: 5px;
+}
+
+#social {
+  width: 176px;
+  margin: 50px auto 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.social-icon {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: rgb(128, 173, 245, 0.2);
 }
