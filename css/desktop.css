@@ -129,4 +129,8 @@
     padding: 50px 0;
     border-radius: 30px;
   }
+
+  #social {
+    display: none;
+  }
 }
