@@ -13,6 +13,12 @@ body {
   color: #111235;
 }
 
+#constrain {
+  min-width: 350px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
 h1,
 h2,
 h3 {
@@ -34,8 +40,7 @@ h2 {
   line-height: 3.625rem;
 }
 
-.logo {
-  margin-top: 25px;
+h3 {
   font-size: 2rem;
 }
 
@@ -53,17 +58,28 @@ h5 {
   font-weight: 700;
 }
 
-.center-text {
-  text-align: center;
-}
-
 header {
   height: 75px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+}
+
+header ul {
+  display: none;
 }
 
 section {
   margin: 40px 0 120px;
+}
+
+header,
+section:nth-of-type(1),
+section:nth-of-type(3),
+footer,
+a {
+  text-align: center;
 }
 
 section img {
@@ -109,12 +125,10 @@ section p {
   justify-content: center;
 }
 
-
 .card:nth-of-type(1),
 .card:nth-of-type(4) {
   background-color: #E4F0FF;
 }
-
 
 .blue-bg {
   background-color: #F2F8FF;
