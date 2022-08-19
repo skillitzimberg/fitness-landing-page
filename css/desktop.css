@@ -40,6 +40,10 @@
     margin: 46px;
   }
 
+  #menu {
+    display: flex;
+  }
+
   #menu img {
     margin-left: 56px;
   }
