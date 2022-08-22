@@ -12,7 +12,9 @@
   }
 
   header {
+    margin-top: 30px;
     padding: 0 10%;
+    box-shadow: none;
   }
 
   section,
@@ -146,6 +148,7 @@
     padding-top: 50px;
     display: flex;
     justify-content: space-between;
+    align-items: baseline;
   }
 
   footer ul {
