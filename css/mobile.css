@@ -158,16 +158,12 @@ footer h5 {
   font-weight: 600;
 }
 
-footer p {
-  margin: 60px auto 130px;
-}
-
-ul {
+footer ul {
   margin-top: 50px;
   list-style: none;
 }
 
-li {
+footer ul li {
   margin-bottom: 35px;
 }
 
@@ -200,4 +196,9 @@ input {
   align-items: center;
   border-radius: 50%;
   background-color: rgb(128, 173, 245, 0.2);
+}
+
+#copyright {
+  margin: 60px auto 130px;
+  text-align: center;
 }
